@@ -19,7 +19,7 @@ app.post("/api/generate", async (req, res) => {
 
     const output = await replicate.run(
       "ibm-granite/granite-3.3-8b-instruct",
-      { input: { prompt } }
+      { input: { prompt} }
     );
 
     res.json({ result: output.join("") });
