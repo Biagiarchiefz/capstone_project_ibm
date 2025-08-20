@@ -26,7 +26,7 @@ function App() {
     <div className="min-h-screen bg-gray-100 flex flex-col items-center p-6">
       <div className="w-full max-w-2xl bg-white rounded-2xl shadow-lg p-6">
         <h1 className="text-2xl font-bold text-gray-800 mb-4 text-center">
-          Granite Model🚀
+          GraniteChat🚀
         </h1>
 
         {/* Input Prompt */}
